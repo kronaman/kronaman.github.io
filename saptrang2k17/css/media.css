@@ -1,0 +1,144 @@
+@media screen and (max-width: 768px) {
+
+  ::-webkit-scrollbar {
+      width: 0px !important;
+      height: 0px !important;
+  }
+  html{
+    /*max-height: 2000px;*/
+    max-width: 100vw;
+  }
+  body{
+    overflow: visible;
+    height: auto;
+    /*width: 90vw !important;*/
+  }
+
+  .page-home{
+    height: 2500px;
+    overflow: visible;
+    width: 100vw !important;
+  }
+  .l_box {
+      position: relative;
+      z-index: 0;
+      overflow-y: visible;
+      /*Change this height to change page height*/
+      height: 2500px;
+      margin-left: 0px;
+       /* REmoves the scrollbar below*/
+    /*overflow-y: hidden;*/
+  }
+  .l_box_large{
+    height: 850px;
+  }
+  #l_page_event{
+      display: flex;
+      flex-direction: column;
+       width: 90vw;
+       overflow: visible;
+  }
+  
+  .column_line_up_areas .column_line_up_area {
+    height: 100%;
+  }
+
+  #column_line_up_1{
+       width: 90vw;
+       padding: 10px;
+       /*background: orange;*/
+  }
+  #column_line_up_2{
+       width: 90vw;
+       padding: 10px;
+       /*background: pink;*/
+  }
+  #column_line_up_3{
+       width: 90vw;
+       padding: 10px;
+       /*background:blue;*/
+     }
+  #column_line_up_4{
+       width: 90vw;
+       padding: 10px;
+  }
+  #column_line_up_5{
+       width: 90vw;
+       padding: 10px;
+       /*background: #333;*/
+  }
+  #column_line_up_6{
+       width: 90vw;
+       padding: 10px;
+  }
+
+  /*Hiding content*/
+
+  .column_line_up{
+	overflow: visible;
+  }
+
+  .content1,
+  .content2,
+  .content3,
+  .content4,
+  .content5,
+  .content6,{
+  	cursor: pointer;
+  	display: none;
+  }
+	.column_line_up_areas h1{
+		cursor: pointer;
+	}
+
+  .column_line_up_area{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 95vw !important;
+  }
+
+.sidebar{
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: -115px;
+    transition: all 0.4s ease-in-out;
+    /*padding: 10vh 0 5vh 16vh;*/
+  }
+  .sidebar-content{
+    margin-left: 15vh;
+  }
+  .sidebar img{
+    display: block;
+    height: 50vw;
+    width: auto !important;
+    margin: 10vh 0 5vh 16vh;
+  }
+  .times,
+  .ham{
+    display: inline-block;
+    color: #ffc;
+    /*float: left;*/
+    z-index: 70px;
+    position: relative;
+    cursor: pointer;
+  }
+  .times{
+    float: right;
+    margin-top: 30px;
+  }
+  .ham{
+    margin-top: 40px;
+  }
+
+
+
+
+
+
+
+
+}
+/*End of media query*/
